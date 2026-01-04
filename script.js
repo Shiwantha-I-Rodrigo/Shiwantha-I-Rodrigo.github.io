@@ -49,8 +49,8 @@ function updateButtons() {
   prevBtn.disabled = currentX <= 0;
   nextBtn.disabled = currentX >= getMaxTranslate();
 
-  prevBtn.style.opacity = prevBtn.disabled ? "0.3" : "0.7";
-  nextBtn.style.opacity = nextBtn.disabled ? "0.3" : "0.7";
+  prevBtn.style.opacity = prevBtn.disabled ? "0.3" : "1";
+  nextBtn.style.opacity = nextBtn.disabled ? "0.3" : "1";
 }
 
 nextBtn.addEventListener('click', () => {
