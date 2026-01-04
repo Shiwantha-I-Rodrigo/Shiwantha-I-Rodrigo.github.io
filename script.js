@@ -73,6 +73,5 @@ window.addEventListener('resize', () => {
   updateButtons();
 });
 
-
 updateButtons();
 typeEffect();
