@@ -1,11 +1,170 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>PORTFOLIO</h1>
-<p>Be <b>bold</b> in stating your key points.</p>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="res/logo.png" alt="Logo" height="40"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="profile">
+            <img src="res/profile.png">
+        </div>
+        <div class="intro">
+            <div class="name">
+                <label class="">Hi, I'm Shiwantha Rodrigo</label>
+            </div>
+            <div class="vscode">
+                <label class="typing-container" id="typing"></label>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2>About Me</h2>
+            <p class="mt-3">
+                I am a passionate web developer who loves creating responsive and user-friendly websites.
+                I am a passionate web developer who loves creating responsive and user-friendly websites.
+                I am a passionate web developer who loves creating responsive and user-friendly websites.
+                I am a passionate web developer who loves creating responsive and user-friendly websites.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="justify-content-center">
+
+                <div class="carousel-container">
+                    <button class="nav prev">❮❮</button>
+                    <div class="carousel">
+
+                        <div class="mt-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="res/logo.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 1</h5>
+                                    <p class="card-text">Short description of your project.Short description of your
+                                        project.Short description of your project.Short description of your
+                                        project.Short description of your project.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-3 ms-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="res/logo.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 2</h5>
+                                    <p class="card-text">Short description of your project.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-3 ms-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="res/logo.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 3</h5>
+                                    <p class="card-text">Short description of your project.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-3 ms-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="res/logo.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 4</h5>
+                                    <p class="card-text">Short description of your project.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-3 ms-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="res/logo.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 5</h5>
+                                    <p class="card-text">Short description of your project.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-3 ms-3">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="res/logo.png">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Project 6</h5>
+                                    <p class="card-text">Short description of your project.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="nav next">❯❯</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>Email: yourname@email.com</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-white text-center py-3">
+        <p class="mb-0">© 2026 Shiwantha Rodrigo</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="bootstrap.min.js"></script>
 
 </body>
+
 </html>
