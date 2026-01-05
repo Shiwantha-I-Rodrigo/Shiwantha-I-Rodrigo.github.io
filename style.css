@@ -224,6 +224,47 @@ body {
     color: var(--secondary-hover-color);
 }
 
+/* modal */
+.dark-modal .modal-content {
+    background-color: var(--dark);
+    color: var(--primary-color);
+    border-radius: 12px;
+    position: fixed;
+    z-index: 999;
+    width: 500px;
+}
+
+.dark-modal .modal-header,
+.dark-modal .modal-footer {
+    border-color: var(--dark);
+}
+
+.dark-modal .btn-close {
+    filter: invert(1);
+}
+
+.dark-modal .btn {
+    width: 200px;
+}
+
+.dark-modal .btn:hover {
+    background-color: var(--secondary-hover-color);
+    color: var(--dark);
+    border: none;
+}
+
+.btn-green {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
+.btn-gold {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+}
+
 /* general */
 .container {
     position: relative;

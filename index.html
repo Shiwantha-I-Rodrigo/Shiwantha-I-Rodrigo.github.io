@@ -194,11 +194,38 @@
             <div class="center">
                 <i class="bi bi-linkedin" style="font-size: 40px" title="Linkedin"></i>
                 <i class="bi bi-github" style="font-size: 40px" title="GitHub"></i>
-                <a href="cv.html"><i class="bi bi-file-earmark-person" style="font-size: 40px" title="Curriculum Vitae (CV)"></i></a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#cv_modal"><i class="bi bi-file-earmark-person" style="font-size: 40px" title="Curriculum Vitae (CV)"></i></a>
             </div>
             <div class="side"></div>
         </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal dark-modal" id="cv_modal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <h5 class="modal-title">Choose CV Style</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+                    <p>Select which style of CV you require :</p>
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <button class="btn btn-green" onclick="redirectToPage('cv/shiwantha_rodrigo_ats.pdf')">
+                        ATS friendly CV
+                    </button>
+                    <button class="btn btn-gold" onclick="redirectToPage('cv/shiwantha_rodrigo_cv.pdf')">
+                        Human Readable CV
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
     <script src="bootstrap.min.js"></script>

@@ -73,5 +73,9 @@ window.addEventListener('resize', () => {
   updateButtons();
 });
 
+function redirectToPage(link) {
+  window.location.href = link;
+}
+
 updateButtons();
 typeEffect();
