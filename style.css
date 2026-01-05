@@ -265,6 +265,11 @@ body {
     border: none;
 }
 
+.dark-modal img {
+    width: 300px;
+    padding-bottom: 20px;
+}
+
 /* general */
 .container {
     position: relative;
