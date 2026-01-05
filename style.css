@@ -315,4 +315,22 @@ a {
         flex: 8;
     }
 
+    .dark-modal .modal-content {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .dark-modal .btn {
+        width: 180px;
+    }
+
+    .dark-modal img {
+        width: 250px;
+        padding-bottom: 20px;
+    }
+
+    .dark-modal .modal-dialog {
+        margin: 0px;
+    }
+
 }
