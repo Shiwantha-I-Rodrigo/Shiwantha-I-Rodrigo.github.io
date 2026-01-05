@@ -240,6 +240,11 @@ body {
     margin: 0vw;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* tab */
 @media (max-width: 1500px) {
 
